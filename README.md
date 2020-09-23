@@ -2,7 +2,7 @@
 
 _23 September 2020_
 
-#### _A Ruby project that translates a number into word form (for Epicodus)_
+#### _Ruby practice for creating tests for winning and losing combination for rock, paper, scissors (for Epicodus)_
 
 #### By _**Drew Parker, Alex Goodwin and Bryce Bartolome**_
 
@@ -15,8 +15,9 @@ _This is a project for Epicodus to practice using test driven development with R
 =
 | Spec | Behavior | Input | Output |
 | ---- | --------------------------------------------- | ----- | ------ |
-| 1 | returns true if rock is the object and scissors is the argument | "rock", "scissors" | "true" |
-| 2 |
+| 1 | returns true if rock is the object and scissors is the argument | "rock", "scissors" | "win" |
+| 2 | returns true if paper is the object and rock is the argument |"paper", "rock"| "win"|
+| 3 | returns true if rock is the object and paper is the argument | "rock", "paper"| "lose"
 
 ## Setup/Installation Requirements
 
