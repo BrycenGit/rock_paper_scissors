@@ -21,6 +21,5 @@ describe("RPS#rock_paper") do
     game = RPS.new()
     expect(game.win("rock", "rock")).to(eq('draw'))
   end
-
 end
 
