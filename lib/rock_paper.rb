@@ -2,9 +2,6 @@
 
 class RPS 
   def initialize()
-    @rock = 'rock'
-    @scissors = 'scissors'
-    @paper = 'paper'
   end
 
   def random
